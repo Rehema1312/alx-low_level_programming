@@ -1,18 +1,20 @@
 #include <stdio.h>
-#include <string.h>
+
 /**
  *
- *  *main - using puts instead of printf
+ *  *main - entry point
  *
  *   *
  *
- *    *Return 0
+ *    *Return: 0 after printing the function
  *
- *    **/
+ *     */
+
 int main(void)
+
 {
-	char phrase[] = puts "\"Programming is like building a multilingual puzlle";
-	puts(phrase);
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
+
 }
 
