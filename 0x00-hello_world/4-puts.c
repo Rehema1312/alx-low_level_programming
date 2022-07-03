@@ -1,21 +1,14 @@
 #include <stdio.h>
-
 /**
  *
- * 
- * main - entry point
+ * main - somethinng
  *
  *
  *
+ * Return: return value description
  *
- * Return: 0 after printing the function
- *
- *
- *
- *
- *
+ *     
  */
-
 
 
 int main(void)
