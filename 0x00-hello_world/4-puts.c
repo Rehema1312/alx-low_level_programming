@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 /**
  *
  *  *main - using puts instead of printf
@@ -10,8 +11,8 @@
  *    **/
 int main(void)
 {
-		char phrase[] = puts "\"Programming is like building a multilingual puzzle";
-		puts(phrase);
-		return (0);
+	char phrase[] = puts "\"Programming is like building a multilingual puzlle";
+	puts(phrase);
+	return (0);
 }
 
