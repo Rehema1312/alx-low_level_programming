@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
- *
- * main - printing output
+ * main - printf task
  *
  * Return: Always 0 (success)
  *
