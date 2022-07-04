@@ -2,13 +2,12 @@
 #include <stdio.h>
 #include <time.h>
 /**
- * main-starts here
+ * main - starts her
  * Return: always return 0 (success)
  */
 int main(void)
 {
 	int n;
-	int last;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
