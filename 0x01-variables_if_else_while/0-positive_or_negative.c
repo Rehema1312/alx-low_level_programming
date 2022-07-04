@@ -1,6 +1,6 @@
 #include<stdlib.h>
-#include<stdio.h>
 #include<time.h>
+#include<stdio.h>
 /* more headers goes there */
 /* betty style doc for function main goes there */
 /* main- numbers to check whether the answer is positive or negative or zero */
@@ -8,8 +8,6 @@
 int main(void)
 {
 	/*function main- code to check n */
-
-
 			int n;
 				srand(time(0));
 					n = rand() - RAND_MAX / 2;
