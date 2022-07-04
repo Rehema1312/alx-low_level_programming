@@ -2,12 +2,13 @@
 #include<time.h>
 #include<stdio.h>
 /**
-* main- numbers to check whether the answer is positive or negative or zero 
-* Return: always return 0(Success)
-*/ 
+ * main - numbers to check whether the answer is positive or negative or zero
+ * Return: always return 0(Success)
+ */
 int main(void)
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
