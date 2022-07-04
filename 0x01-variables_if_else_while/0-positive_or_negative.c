@@ -3,7 +3,7 @@
 #include<time.h>
 /* more headers goes there */
 /* betty style doc for function main goes there */
-/* main- the code starts here */
+/* main- conditional ifs to check whether the value of nis positive or negative or zero*/
 /* Return-accept return 0 */
 int main(void)
 {
@@ -22,6 +22,6 @@ int main(void)
 					else
 					{
 				printf("%d is zero\n", n);
-				}
-					return (0);
+					}
+			 return (0);
 }
