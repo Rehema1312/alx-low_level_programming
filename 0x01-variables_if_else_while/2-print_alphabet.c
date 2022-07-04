@@ -3,7 +3,7 @@
  * main-putchar function
  * Return- always return 0 (success)
  */
-int main(void)
+int main(void):
 {
 		int ch;
 
@@ -11,6 +11,6 @@ int main(void)
 			putchar(ch);
 		putchar ('\n');
 		/*print lowercase letters*/
-		get ch();
+		getch();
 		return (0);
 }
