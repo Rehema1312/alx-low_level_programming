@@ -1,6 +1,6 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
- * main-numbersto base sixteen
+ * main- number to base sixteen
  * Return: always return 0 (success)
  */
 int main(void)
@@ -12,5 +12,6 @@ int main(void)
 		putchar(v % 10 + '0');
 	for (w = 'a' ; w < 'g' ; w++)
 		putchar(w);
+	putchar('\n');
 	return (0);
 }
