@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
  * main-putchar function
- * Return- always return0 (success)
+ * Return- always return 0 (success)
  */
-main(void)
+int main(void)
 {
 		int ch;
 
@@ -11,5 +11,6 @@ main(void)
 			putchar(ch);
 		putchar ('\n');
 		/*print lowercase letters*/
-		getch();
+		get ch();
+		return (0);
 }
