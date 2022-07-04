@@ -1,16 +1,18 @@
 #include <stdio.h>
 /**
- * main-putchar function
- * Return- always return 0 (success)
+ * main- print alphabet in lowercase
+ * Return: always return 0 (success)
  */
-int main(void):
+int main(void)
 {
-		int ch;
+		char ch;
 
-		for (ch = 'a'; ch < = 'z'; ch++)
+		for (ch = 'a'; ch <= 'z'; ++ch)
+		{
 			putchar(ch);
-		putchar ('\n');
-		/*print lowercase letters*/
-		getch();
+		}
+		{
+			putchar ('\n');
+		}
 		return (0);
 }
