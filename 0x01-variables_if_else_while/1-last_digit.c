@@ -18,11 +18,11 @@ int main(void)
 	{
 		printf("and is greater than 5");
 	}
-	if (x == 0)
+	if (last == 0)
 	{
 		printf("and is 0");
 	}
-	if (x < 6 && x != 0)
+	if (last < 6 && last != 0)
 	{
 		printf("and is less than 6 not 0");
 	}
