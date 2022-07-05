@@ -3,7 +3,7 @@
  * print_alphabet_x10 -printing the alphabet in lowercase ten times
  * Return: always return 0 (successs)
  */
-print_alphabet_x10(void)
+int print_alphabet_x10(void)
 {
 	int x;
 	char y;
@@ -12,6 +12,6 @@ print_alphabet_x10(void)
 	{
 		for (y = 'a'; y <= 'z'; y++)
 			_putchar(y);
-		putchar('\n');
+		_putchar('\n');
 	}
 }
