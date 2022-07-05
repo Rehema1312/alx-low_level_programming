@@ -1,14 +1,20 @@
-#include<stdio.h>
-#include<main.h>
+#include<string.h>
+#include "main.h"
+#include <stdio.h>
 /**
  * main- prints putchar and newline
- * Return: always return 0 (success)
+ * Return: Always return 0 (success)
  */
 int main(void)
 {
-	int print;
+	char *sh = "_putchar";
 
-	printf("_putchar\n");
+	while (*sh)
+	{
+		putchar(*sh);
+		sh++;
+	}
+	putchar('\n');
 	Return(0);
 }
 
