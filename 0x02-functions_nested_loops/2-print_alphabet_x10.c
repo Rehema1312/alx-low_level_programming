@@ -2,9 +2,10 @@
 /**
  * main- printing the alphabet in lowercase 10 times
  * Return: always return 0 (success)
- * print_alphabet_x10- printing the alphabet in lowercase 10 times
+ * print_alphabet_x10 - printing the alphabet in lowercase 10 times
+ * description: printing the alphabet in lowercase 10 times
  */
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
 	int x;
 	char y;
