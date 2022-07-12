@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
 * print_array - Use pointer to change value in memory
 * @a: Array of integers
