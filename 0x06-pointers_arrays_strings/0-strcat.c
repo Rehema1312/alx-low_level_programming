@@ -2,16 +2,29 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * @dest: parameter pointer to a character
+ * @dest: receives appended src string overwriting null byte
  * @src: parameter pointer to a character
- * Return: return resulting string dest
+ * Return: return resulting string destination
  * *_strcat - function that concatenates two strings
  */
 char *_strcat(char *dest, char *src);
 {
-	char *dest;
-	char *src;
+	int x;
+	int y;
 
-	strcat(*dest *src);
-	return (0);
+
+	x = 0;
+	y = 0;
+	while (dest[x] != '\0')
+	{
+		x++;
+	}
+	while (src[y] != '\0')
+	{
+		dest[x] = src[y];
+		y++;
+		x++;
+	}
+	dest[x] = '\0';
+	return (dest);
 }
