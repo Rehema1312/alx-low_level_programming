@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * main - a function that returns the factorial of a given number
  * Return: -1 an error
