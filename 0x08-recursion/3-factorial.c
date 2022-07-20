@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * Return: always return SUCCESS
  * factorial - to check whether n < 0 returning -1 to indicate an error
  * @n: n number of times
+ * Return: always return SUCCESS
  */
 int factorial(int n)
 {
