@@ -1,13 +1,13 @@
 #include "main.h"
 /**
- * _puts: function that prints a string 
+ * -puts_recursion: function that prints a string 
  * @s: printing a character
  * Return: always success
- */ 
+ */
 void _puts_recursion(char *s)
 {
-	char x;
+	char s;
 
-	printf("%c/n", x);
+	-puts_recursion("%c/n", s);
 	return (0);
 }
