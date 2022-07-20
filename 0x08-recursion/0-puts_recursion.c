@@ -6,8 +6,8 @@
  */
 void _puts_recursion(char *s)
 {
-	char s;
+	char *s;
 
-	-puts_recursion("%c/n", s);
+	 _puts_recursion("%c/n", *s);
 	return (0);
 }
