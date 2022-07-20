@@ -5,7 +5,7 @@
  * factorial: to checj whether n < 0 returning -1 to indicate an error
  * @n: n number of times
  */
-int factorial(int n)
+int factorial(int n);
 {
 	int n;
 
