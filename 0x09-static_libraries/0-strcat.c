@@ -7,7 +7,7 @@
  * Return: return resulting string destination
  * *_strcat - function that concatenates two strings
  */
-char *_strcat(char *dest, char *src);
+char *_strcat(char *dest, char *src)
 {
 		int x;
 			int y;
